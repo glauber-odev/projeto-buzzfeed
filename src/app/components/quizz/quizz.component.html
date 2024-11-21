@@ -1,0 +1,27 @@
+<div class="quizz__container">
+  <div class="quizz_logo">
+    <img src="assets/imgs/buzzfeed.png" alt="" />
+    <h3>{{ title }}</h3>
+  </div>
+
+  <div *ngIf="!finished" class="quizz_questions">
+    <h3>{{ questionSelected.question }}</h3>
+  </div>
+
+  <div *ngIf="!finished" class="quizz_options">
+    <!-- o option.alias já deixa setado um valor no elemento quando for clicado -->
+    <button
+      *ngFor="let option of questionSelected.options; let i = index"
+      (click)="playerChoose(option.alias)"
+      class="btn_option"
+    >
+      {{ option.name }}
+    </button>
+  </div>
+
+  <div *ngIf="finished" class="quizz_results">
+    <h1>O seu resultado é:</h1>
+    <p>{{ answerSelected }}</p>
+    <app-button3d (click)="restartGame()" ></app-button3d>
+  </div>
+</div>
