@@ -1,27 +1,24 @@
-# ProjetoBuzzfeed
+# Projeto Buzzfeed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
-## Development server
+Bem-vindo ao projeto Angular BuzzFeed Game! Este é um jogo interativo onde os usuários podem responder a uma série de perguntas e descobrir qual personagem do BuzzFeed eles são.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h3>Descrição do Projeto</h3>
+O Angular BuzzFeed Game é uma aplicação web construída usando o framework Angular. O objetivo do jogo é fornecer uma experiência divertida e engajadora para os usuários, permitindo que eles descubram sua personalidade BuzzFeed.
 
-## Code scaffolding
+O jogo consiste em uma série de perguntas que abordam diferentes aspectos da vida e personalidade do usuário. Com base nas respostas fornecidas, o sistema calcula qual personagem do BuzzFeed mais se assemelha ao perfil do usuário.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3>Funcionalidade</h3>
+Questionário interativo: Os usuários são apresentados a uma série de perguntas relacionadas a seus gostos, preferências e estilo de vida.
 
-## Build
+* Cálculo da personalidade BuzzFeed: Com base nas respostas do usuário, o sistema determina qual personagem o usuário apresenta, podendo ser herói ou vilão.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+<h3>Tecnologias Utilizadas</h3>
+Angular: O projeto foi construído usando o framework Angular, fornecendo uma estrutura sólida e recursos poderosos para o desenvolvimento da aplicação.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* TypeScript: A linguagem de programação TypeScript é utilizada para escrever o código-fonte do projeto.
+  
+* HTML/CSS: A marcação HTML e a estilização CSS são usadas para criar a interface do usuário.
+  
+* RxJS: A biblioteca RxJS é usada para lidar com eventos assíncronos e fluxos de dados.
